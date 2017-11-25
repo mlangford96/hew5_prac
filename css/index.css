@@ -1,4 +1,6 @@
 #main-content {
+    display: inline-block;
+    height: 50vh;
     padding-top: 100px;
 }
 
@@ -9,6 +11,6 @@
     color: #FFFFFF;
     display: inline-block;
     font-size: 18pt;
-    text-decoration: none;
     padding: 10px;
+    text-decoration: none;
 }

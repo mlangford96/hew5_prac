@@ -1,0 +1,26 @@
+input {
+    height: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#main-content {
+    height: 58vh;
+    padding-top: 35px;
+}
+
+#submit-button {
+    background-color: #49105F;
+    border: none;
+    color: white;
+    font-size: 14pt;
+    height: 30px;
+}
+
+#upload-form {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: left;
+    width: 300px;
+}

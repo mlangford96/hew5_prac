@@ -4,7 +4,9 @@ body, html {
 }
 
 footer {
+    display: inline-block;
     text-align: center;
+    width: 100%;
 }
 
 h1 {
@@ -22,7 +24,6 @@ header {
 }
 
 main {
-    height: 60vh;
     text-align: center;
 }
 

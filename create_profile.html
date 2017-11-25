@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <title> Create Your Profile </title>
     <link rel="stylesheet" href = "css/common.css" />
-    <link rel="stylesheet" href = "css/index.css" />
+    <link rel="stylesheet" href = "css/create_profile.css" />
     <link href="fonts/Roboto" rel="font">
 
     <header>
@@ -16,10 +16,31 @@
 
     <main>
         <div id = main-content>
+            <form id = "upload-form" action = "upload_profile.php" method = "post">
+                First Name:
+                <input type = "text" name = "firstName">
+                <br>
+                Last Name:
+                <input type = "text" name = "lastName">
+                <br>
+                Job Title:
+                <input type = "text" name = "jobTitle">
+                <br>
+                Email:
+                <input type = "email" name = "email">
+                <br>
+                Biography:
+                <input id = bio-input type = "text" name = "bio">
+                <br>
+                Upload a Profile Picture:
+                <input id = "uploadFile" type = "file" name = "uploadFile">
+                <br>
+                <input id = "submit-button" type = "submit" value = "Submit and View Your Profile">
+            </form>
         </div>
-    </main>
 
-    <footer>
-        <p class = "text" > Created by Matthew Langford 2017. </p>
-    </footer>
+        <footer>
+            <p class = "text" > Created by Matthew Langford 2017. </p>
+        </footer>
+    </main>
 </html>
