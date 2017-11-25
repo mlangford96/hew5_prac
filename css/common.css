@@ -3,8 +3,13 @@ body, html {
     padding: 0px;
 }
 
+footer {
+    text-align: center;
+}
+
 h1 {
     color: #FFFFFF;
+    line-height: 110px;
     margin: 0px;
 }
 
@@ -14,6 +19,33 @@ header {
     margin: 0px;
     padding: 0px;
     text-align: center;
+}
+
+main {
+    height: 60vh;
+    text-align: center;
+}
+
+nav {
+    height: 70px;
+    text-align: center;
+}
+
+.nav-button {
+    border: none;
+    border-radius: 0px;
+    font-family: 'Roboto-Thin', sans-serif;
+    font-size: 15pt;
+    height: 66px;
+    padding: 0px 20px 0px 20px;
+}
+
+.nav-button:hover {
+    background-color: #DDDDDD;
+}
+
+#page-create-button {
+
 }
 
 .text {

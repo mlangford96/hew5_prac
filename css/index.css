@@ -1,0 +1,12 @@
+#main-content {
+    padding-top: 100px;
+}
+
+#profile-create-button {
+    background-color: #49105F;
+    border: none;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-size: 18pt;
+    padding: 10px;
+}
