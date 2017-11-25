@@ -1,12 +1,17 @@
 input {
     height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 100%;
 }
 
 #main-content {
-    height: 58vh;
-    padding-top: 35px;
+    margin: auto;
+    padding-top: 20px;
+    width: 300px;
+}
+
+#form-p {
+    text-align: left;
 }
 
 #submit-button {
@@ -19,7 +24,6 @@ input {
 
 #upload-form {
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
     margin: auto;
     text-align: left;
     width: 300px;

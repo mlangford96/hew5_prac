@@ -28,14 +28,14 @@
                 <br>
                 Email:
                 <input type = "email" name = "email">
-                <br>
-                Biography:
-                <input id = bio-input type = "text" name = "bio">
-                <br>
-                Upload a Profile Picture:
-                <input id = "uploadFile" type = "file" name = "uploadFile">
-                <br>
-                <input id = "submit-button" type = "submit" value = "Submit and View Your Profile">
+            </form>
+            <p id = "form-p"> Biography: </p>
+            <textarea rows = "4" cols = "47" name = "bio" form = "upload-form"> Enter your biography here... </textarea>
+            <br>
+            <p id = "form-p"> Upload a Profile Picture: </p>
+            <input id = "uploadFile" type = "file" name = "uploadFile" form = "upload-form">
+            <br>
+            <input id = "submit-button" type = "submit" value = "Submit and View Your Profile" form = "upload-form">
             </form>
         </div>
 
