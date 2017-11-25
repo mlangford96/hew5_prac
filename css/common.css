@@ -34,18 +34,15 @@ nav {
 .nav-button {
     border: none;
     border-radius: 0px;
+    display: inline-block;
     font-family: 'Roboto-Thin', sans-serif;
     font-size: 15pt;
-    height: 66px;
-    padding: 0px 20px 0px 20px;
+    height: 40px;
+    padding: 15px 20px 0px 20px;
 }
 
 .nav-button:hover {
     background-color: #DDDDDD;
-}
-
-#page-create-button {
-
 }
 
 .text {
