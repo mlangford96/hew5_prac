@@ -1,0 +1,21 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+header {
+    background-color: #49105F;
+    height: 110px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+}
