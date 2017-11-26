@@ -1,0 +1,31 @@
+#email {
+    color: #6666FF;
+    display: inline-block;
+    margin: 0px;
+}
+
+#info-pane {
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+}
+
+#job-title {
+    border-color: #DDDDDD;
+    border-style: none solid none none;
+    border-width: 2px;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+    padding: 2px 20px 2px 0px;
+}
+
+#main-content {
+    height: 60vh;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#profile-pane {
+    display: inline-block;
+    width: 200px;
+}

@@ -5,9 +5,9 @@
     $jobTitle = $_POST['jobTitle'];
     $email = $_POST['email'];   
     $bio = $_POST['bio'];
-    $imgPath = $lastName . $firstName;
+    $imgPath = $_FILES["uploadFile"]["name"];
     add_profile($firstName, $lastName, $jobTitle, $email, $bio, $imgPath);
-    
+    mkdir("../profile_pictures/".$email); 
     $target_dir = "../profile_pictures/".$email."/";
     $target_file = $target_dir . basename($_FILES["uploadFile"]["name"]);
     $uploadOk = 1;
@@ -29,9 +29,8 @@
         $uploadOk = 0;
     }
     // Allow certain file formats
-    if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-            && $imageFileType != "gif" ) {
-        echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+    if($imageFileType != "jpg" && $imageFileType != "jpeg" ) {
+        echo "Sorry, only JPG and JPEG files are allowed.";
         $uploadOk = 0;
     }
     // Check if $uploadOk is set to 0 by an error
@@ -45,4 +44,5 @@
             echo "Sorry, there was an error uploading your file.";
         }
     }
+    header("Location: profile_page.php?email=".$email);
 ?>

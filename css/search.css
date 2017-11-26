@@ -1,0 +1,11 @@
+input {
+    height: 30px;
+    width: 300px;
+}
+
+.submit {
+    background-color: #49105F;
+    color: #FFFFFF;
+    Font-Size: 14pt;
+    width: 150px;
+}
